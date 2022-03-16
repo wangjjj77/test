@@ -1,37 +1,31 @@
-## Welcome to GitHub Pages
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>家乡</title>
+<style>
+	#wrapper{
+		width: 800px;
+		height: 800px;
+		float: left;
+	}
+</style>
+</head>
 
-You can use the [editor on GitHub](https://github.com/wangjjj77/test/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/wangjjj77/test/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<body>
+<div id="wrapper"></div>
+<a href="https://baike.baidu.com/item/%E5%B8%B8%E5%B7%9E/171784"><h2 align="center">家乡介绍</h2></a>
+<div align="center">
+	<img src="https://tse1-mm.cn.bing.net/th/id/R-C.e755f5257f89d8e4000aa901c09293ef?rik=2A8%2bnNJ3Hr5MAw&riu=http%3a%2f%2fs3.lvjs.com.cn%2fuploads%2fpc%2fplace2%2f2017-03-21%2f954f7009-6a88-4396-afdf-e344e62f7fd7_555_370.jpg&ehk=ofTMowF8jFTDtJj4Y%2fmtlsm6UW1NWtM7rNsdcS9r9nE%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" alt="图片" style="width: 700px;height: 700px" align="center"/>
+</div>
+</body>
+<script type="text/javascript" src="https://webapi.amap.com/maps?v=1.4.8&key=908345ee858acfa6b443e66f895ac8da"></script>
+<script>
+	window.onload = function(){
+		var map = new AMap.Map('wrapper',{
+			zoom:11,
+			center:[119.95,31.79]
+		});
+	};
+</script>
+</html>
